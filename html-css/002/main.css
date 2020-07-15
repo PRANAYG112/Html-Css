@@ -1,0 +1,23 @@
+html {
+    background: #2328ff;
+}
+body {
+    width: 65%;
+    margin: 0 auto;
+    background: chartreuse;
+    border: 10px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 20px ridge gold;
+}
+#primary {
+    color: #2328ff;
+}
+#secondary {
+    color: orangered;
+}
+#hamdary {
+    color:crimson;

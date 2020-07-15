@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f573b06-14fd-4e4f-acb0-befac0503fb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/panuu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-css/000/659385.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-css/000/download.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-css/001/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html-css/001/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-css/002/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-css/002/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +44,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration name="surfpage" type="JavascriptDebugType" activateToolWindowBeforeRun="false" uri="http://localhost:63342/panuu/html-css/002/index.html?_ijt=lsu0stqo9l6ikd20tfoq5dtrrp" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,10 +63,19 @@
       <workItem from="1593841470230" duration="19000" />
       <workItem from="1594018427097" duration="869000" />
       <workItem from="1594306498356" duration="2914000" />
+      <workItem from="1594537689921" duration="589000" />
+      <workItem from="1594562650084" duration="1159000" />
+      <workItem from="1594815921402" duration="2073000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594816331944">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1594816331944" />
   </component>
 </project>
