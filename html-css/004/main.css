@@ -1,0 +1,6 @@
+@keyframes slider {
+    0%{../000/dragon-ball-dragon-ball-super-ultra.jpg;}
+    35%{../000/dragon-ball-super-vegeta.jpg;}
+    75%{../000/goku.jpg;}
+}
+ animation: slider 5s infinite linear;
