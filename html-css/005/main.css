@@ -1,0 +1,42 @@
+h1{
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 2px 4px 2.5px orangered;
+}
+.aaa{
+    font-family: serif;
+}
+
+.bbb{
+    font-family: sans-serif;
+}
+
+.ccc{
+
+}
+
+.ddd{
+    font-variant-caps: all-petite-caps;
+    font-style: italic;
+}
+
+.eee{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.ggg{
+    letter-spacing: 1.5rem;
+}
+
+a{
+    text-decoration:#2328ff underline;
+}
+
+.iii{
+    text-decoration: line-through;
+}
+
+.jjj{
+    text-indent: 30px;
+}
