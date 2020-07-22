@@ -30,7 +30,7 @@ h1{
 }
 
 a{
-    text-decoration:#2328ff underline;
+    text-decoration:#2328ff none;
 }
 
 .iii{
@@ -39,4 +39,8 @@ a{
 
 .jjj{
     text-indent: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
 }
