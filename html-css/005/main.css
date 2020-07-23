@@ -1,7 +1,7 @@
 h1{
     font-style: oblique;
     text-align: center;
-    text-shadow: 2px 4px 2.5px orangered;
+    text-shadow: 2px 6px 3.5px orangered;
 }
 .aaa{
     font-family: serif;
@@ -43,4 +43,9 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+
 }
