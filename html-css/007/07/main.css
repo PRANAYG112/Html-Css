@@ -1,0 +1,27 @@
+html {
+    font-size: 2rem;
+}
+
+body{
+    text-align: center;
+}
+ul {
+    list-style:none;
+    border: 5px dotted #FF0000;
+    border-radius: 50px;
+}
+
+li {
+    border: 5px dotted #FF0000;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+li:hover {
+    background: chartreuse;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
