@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    border: 2px solid red;
+    flex-flow: row wrap;
+    /*height: 1200px;*/
+    /*width: 1200px;*/
+    justify-content: space-between;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+    border: 2px solid red;
+    background: grey;
+    text-align: center;
+    align-content: space-around;
+    margin: 1em;
+    color: #FF0000;
+}
+
+div:hover {
+    background: black;
+    text-decoration: underline;
+}

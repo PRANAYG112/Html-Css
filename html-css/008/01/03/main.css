@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    border: 2px solid #FF0000;
+    background: #308014;
+    flex-flow: column wrap;
+    height: 600px;
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    width:200px;
+    background: grey;
+    text-align: center;
+    color: #FF0000;
+    flex-grow: 1;
+    margin: 1em;
+    /*flex-flow: column;*/
+    align-content: space-between;
+}
+
+div:hover {
+    background: #0000FF;
+    text-decoration: underline;
+}

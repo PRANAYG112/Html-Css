@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid #FF0000;
+    background: white;
+    height: 775px;
+    /*!*flex-direction: row-reverse;*/
+    /*align-items: stretch;*/
+}
+
+div {
+    border: 2px solid black;
+    height: 100px;
+    /*width:200px;*/
+    background: grey;
+    text-align: center;
+    color:orangered;
+    flex-grow: 1;
+    margin: 1em;
+    align-content: space-between;
+}
+
+div:hover {
+    background: black;
+    text-decoration: underline;
+}

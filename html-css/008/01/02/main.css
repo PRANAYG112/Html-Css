@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    border: 2px solid #FF0000;
+    background: #308014;
+    flex-flow: column nowrap;
+}
+
+div {
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    margin: 1em;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    text-align: center;
+}
+
+div:hover {
+    background: #0000FF;
+    text-decoration: underline;
+}

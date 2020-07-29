@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    border: 2px solid red;
+    height: 775px;
+    flex-flow:column wrap;
+    align-content: flex-end;
+}
+
+div {
+    border: 1px solid red;
+    margin: 1em;
+    background: grey;
+    text-align: center;
+    color: #FF0000;
+    width: 200px;
+    height: 100px;
+    flex-grow: 1;
+}
