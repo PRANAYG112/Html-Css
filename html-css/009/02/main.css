@@ -1,0 +1,9 @@
+body,nav,html {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+hi {
+    font-size: 32px;
+}
