@@ -1,0 +1,19 @@
+body,html,div {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+div {
+    width: 100%;
+    min-height: 150px;
+    color: #FF0000;
+    text-align: center;
+    /*text-shadow: orange;*/
+    border: 1px solid #FF0000;
+}

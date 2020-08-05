@@ -1,0 +1,19 @@
+.aaa {
+    order: 1;
+}
+
+.bbb {
+    order: 1;
+}
+
+.ccc {
+    order: 2;
+}
+
+.ddd {
+    order: 3;
+}
+
+div {
+    width: 100%;
+}
