@@ -1,0 +1,28 @@
+html {
+    border: 2px solid black;
+}
+
+body {
+    border: 2px solid darkblue;
+    width: 100%;
+}
+
+#one {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border: 2px solid #FF0000;
+    background: #0000FF;
+    height: 500px;
+    width: 1000px;
+}
+
+#two {
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    border: 2px solid #FF0000;
+    background: #0000FF;
+    height: 300px;
+    width: 200px;
+}
