@@ -1,0 +1,30 @@
+html {
+    border: 4px solid black;
+    margin: 2em;
+}
+body {
+    width: 80%;
+    /*border: 5px solid black;*/
+    margin: 0 auto;
+    overflow: auto;
+}
+
+main, nav {
+    border: 2px solid red;
+    box-sizing: border-box;
+    background-color: tomato;
+}
+
+nav {
+    margin: 2px;
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+main {
+    margin: 2px;
+    float: right;
+    width: 74%;
+    height: 400px;
+}
