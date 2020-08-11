@@ -1,0 +1,8 @@
+div {
+    height: 400px;
+    width: 500px;
+    border: 10px solid #FFD700;
+    background-image: url("../../000/goku.jpg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}

@@ -1,0 +1,11 @@
+body {
+    background-image: url("../../000/insta.jpg");
+    background-repeat: no-repeat;
+}
+div {
+    height: 500px;
+    width: 500px;
+    border: 2px solid #FF0000;
+    background-position: left;
+    /*background-size: 500px 500px;*/
+}

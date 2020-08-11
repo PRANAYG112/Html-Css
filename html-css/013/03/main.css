@@ -1,0 +1,6 @@
+body {
+    background-image: url("../../000/insta.jpg");
+    height: 100%;
+    /*width: 100%;*/
+    background-repeat: repeat-y;
+}

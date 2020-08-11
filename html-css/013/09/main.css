@@ -1,0 +1,34 @@
+html, body, div, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20vh;
+    /* formatting */
+    height: 100vh;
+    background-image: url(../../000/paradise-island.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: #b4d2f7;
+    text-shadow: 3px 3px  6px #FF0000;
+    font-size: 10rem;
+    text-align: center;
+    color: black;
+    /* offset-x | offset-y | blur-radius | color */
+    /*text-shadow: 2px 2px 1px #4c2b03;*/
+}
+
+ul {
+    background-color: lightskyblue;
+}
