@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav header{
+    position: fixed;
+    top: 0;
+    width: 500px;
+    transform: translateY(-5vh);
+    height: 5vh;
+    background: crimson;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 4px 4px 10px rgb(135, 135, 135);
+    transition: all 0.4s;
+}
+input:checked ~ header{
+    top: 5vh;
+    transform: translateY(0);
+}
+.nav header ol{
+    width: 500px;
+    height: 5vh;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav header ol li a{
+    color: white;
+    text-decoration: none;
+}
+.nav label{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.nav label i{
+    position: absolute;
+    top: 0;
+    color: crimson;
+    transform: rotate(180deg);
+    transition: all 0.4s;
+}
+input:checked ~ label i{
+    top: 5vh;
+    transform: rotate(0deg)
+}
+.nav input{
+    display: none;
+}
