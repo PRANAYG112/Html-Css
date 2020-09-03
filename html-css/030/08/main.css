@@ -31,7 +31,7 @@ body{
     transform: translateY(-150px) rotate(180deg);
     }
   100%{
-    transform: translateY(0) rotate(360deg);
+    transform: translateX(150px) rotate(360deg);
   }
 }
 .ball::before{
@@ -42,6 +42,17 @@ body{
   height: 10px;
   /*background: rgba(255, 255, 255, 0.292);*/
   background-color: #141414;
+}
+.shadow1{
+  position: absolute;
+  transform: translateX(152px) translateY(32px);
+  width: 50px;
+  height: 10px;
+  z-index: -1;
+  /*background: rgb(140, 140, 140);*/
+  background-color: #141414;
+  border-radius: 50%;
+  animation: anim 1s linear infinite;
 }
 .shadow{
   position: absolute;
