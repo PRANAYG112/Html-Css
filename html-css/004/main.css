@@ -1,6 +1,36 @@
-@keyframes slider {
-    0%{../000/dragon-ball-dragon-ball-super-ultra.jpg;}
-    35%{../000/dragon-ball-super-vegeta.jpg;}
-    75%{../000/goku.jpg;}
+html,body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
- animation: slider 5s infinite linear;
+
+main {
+    box-sizing: border-box;
+    border:  10px solid #141414;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+span {
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+    0% {background-image: url("")}
+    90% {color: #141414; text-shadow: none;}
+    100% {color: #f3ff08; text-shadow: 0 0 25px #ffff17;}
+}
+
+span:nth-child(1) {
+    animation-delay: 1.5s;
+}
+span:nth-child(2) {
+    animation-delay: 1.5s;
+}
+span:nth-child(3) {
+    animation-delay: 2s;
+}
