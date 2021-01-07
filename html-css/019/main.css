@@ -1,0 +1,60 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+label {
+    /* position */
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*format*/
+    width: 5rem;
+    height: 2rem;
+    border: .3rem solid darkblue;
+    border-radius: 1rem;
+    background-color: #C4E8C8;
+    color: #3A5FCD;
+}
+
+label:hover {
+    background-color: #6DC990;
+}
+
+input[type="checkbox"] {
+    /* toggle */
+    display: none;
+}
+
+#sidebar {
+    /* toggle */
+    position: fixed;
+    left: -50rem;
+    /* formatting */
+    height: 100vh;
+    width: 20vw;
+    background-color: lightblue;
+    border-right: 2px solid blue;
+    /* transition */
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+}
+
+input[type="checkbox"]:checked + #sidebar {
+    /* toggle */
+    left: 0;
+}
+
+ol {
+    margin-top: 4rem;
+}
+

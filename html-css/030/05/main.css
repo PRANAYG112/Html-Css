@@ -18,10 +18,11 @@
     box-shadow: 4px 4px 10px rgb(135, 135, 135);
     transition: all 0.4s;
 }
-input:checked ~ header{
+input:checked ~ header {
     top: 5vh;
-    transform: translateY(0);
+    transform: translateY(0px);
 }
+
 .nav header ol{
     width: 500px;
     height: 5vh;
@@ -41,7 +42,7 @@ input:checked ~ header{
 }
 .nav label i{
     position: absolute;
-    top: 0;
+    top: 0vh;
     color: crimson;
     transform: rotate(180deg);
     transition: all 0.4s;
